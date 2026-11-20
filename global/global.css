@@ -1,0 +1,9 @@
+/* global.css — base styles: reset, variables, body, layout */
+*{box-sizing:border-box;margin:0;padding:0}
+:root{--hdr:#111827;--hero:linear-gradient(135deg,#4338ca,#6366f1 45%,#818cf8);--ind:#4338ca;--indl:#a5b4fc;--ink:#111827;--mut:#6b7280;--line:#e5e7eb}
+body{font-family:system-ui,-apple-system,'Segoe UI',Roboto,Arial,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+section{padding:56px 0}
+.sec-h{font-size:28px;margin-bottom:6px}
+.sec-p{color:var(--mut);margin-bottom:26px}
