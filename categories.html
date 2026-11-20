@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>All Categories — UnitConvert</title>
+<meta name="description" content="1000 free converters in 50 categories: length, area, volume, mass, temperature, time, speed, physics, chemistry, digital storage, text, JSON, CSV, images, colour, audio, subtitles, video, web data and archives.">
+<link rel="stylesheet" href="global/global.css">
+<link rel="stylesheet" href="element/element.css">
+<link rel="stylesheet" href="style/style.css">
+
+</head>
+<body>
+<header>
+  <div class="wrap hd">
+    <a class="logo" href="index.html">Unit<span>Convert</span></a>
+    <nav><a href="categories.html" class="on">Categories</a><a href="tools.html" class="">All Tools</a><a href="formulas.html" class="">Formulas</a><a href="faq.html" class="">FAQ</a></nav>
+  </div>
+</header>
+
+<section><div class="wrap">
+  <h2 class="sec-h">All Categories</h2>
+  <p class="sec-p">50 categories, 20 converters each — 1000 tools in total. Click a category to see its tools.</p>
+  <div class="cat-grid" id="catGrid"></div>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="cols">
+      <div><h4>UnitConvert</h4><p>1000 free converters in 50 categories: length, area, volume, mass, temperature, time, speed, physics, chemistry, digital storage, text, JSON, CSV, images, colour, audio, subtitles, video, web data and archives.</p></div>
+      <div><h4>Categories</h4><ul><li><a href="tools.html?cat=1">Length and distance</a></li><li><a href="tools.html?cat=5">Temperature and humidity</a></li><li><a href="tools.html?cat=23">Digital storage and transfer rates</a></li><li><a href="tools.html?cat=35">JSON transformations</a></li><li><a href="tools.html?cat=43">Color spaces and channel values</a></li><li><a href="tools.html?cat=50">Archives and binary containers</a></li></ul></div>
+      <div><h4>Quick Links</h4><ul><li><a href="index.html">Home</a></li><li><a href="categories.html">Categories</a></li><li><a href="tools.html">All Tools</a></li><li><a href="formulas.html">Formulas</a></li><li><a href="faq.html">FAQ</a></li></ul></div>
+    </div>
+    <div class="copy">© 2026 UnitConvert. All converters run locally in your browser.</div>
+  </div>
+</footer>
+<div class="modal" id="modal"><div class="card">
+  <button class="x" onclick="closeModal()">✕</button>
+  <div class="mcat" id="mCat"></div>
+  <h2 id="mTitle"></h2>
+  <div class="mfrom" id="mFromTo"></div>
+  <div id="mInputs"></div>
+  <div class="formula" id="mFormula"></div>
+</div></div>
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
